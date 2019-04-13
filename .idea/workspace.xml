@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d147fedf-4d04-46fa-a89f-3002674a558c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/definitions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firestore-http.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firestorehttp/jwt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-example.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth-example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/firestore_http$Unittests_for_tests_TestFirestoreAccess.coverage" NAME="Unittests for tests.TestFirestoreAccess Coverage Results" MODIFIED="1555103497848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/firestore_http$Unittests_for_tests_TestFirestoreAccess_test_create_jwt.coverage" NAME="Unittests for tests.TestFirestoreAccess.test_create_jwt Coverage Results" MODIFIED="1555103584122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/firestore_http$Unittests_for_tests_TestFirestoreAccess_test_post_document.coverage" NAME="Unittests for tests.TestFirestoreAccess.test_post_document Coverage Results" MODIFIED="1555181490753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/firestore_http$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1555099063746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="FileEditorManager">
@@ -41,53 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="227">
+              <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/envs/Python3/lib/python3.7/site-packages/jwt/api_jws.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="115" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/jwt/api_jws.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="116" column="68" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,6 +47,45 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///anaconda3/envs/Python3/lib/python3.7/site-packages/jwt/api_jws.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="114" selection-start-line="114" selection-end-line="115" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/jwt/api_jws.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="116" column="68" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -137,19 +126,19 @@
       <list>
         <option value="$PROJECT_DIR$/definitions.py" />
         <option value="$PROJECT_DIR$/auth-example.json" />
-        <option value="$PROJECT_DIR$/test/tests.py" />
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/firestorehttp/jwt.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/tests.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,18 +154,22 @@
               <item name="firestore-http" type="b2602c69:ProjectViewProjectNode" />
               <item name="firestore-http" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="firestore-http" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firestore-http" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555103721622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555181498662" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -184,12 +178,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for tests.TestFirestoreAccess.test_create_jwt">
+  <component name="RunManager" selected="Python tests.Unittests for tests.TestFirestoreAccess.test_post_document">
     <configuration name="Unittests for tests.TestFirestoreAccess" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="firestore-http" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +229,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="firestore-http" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.TestFirestoreAccess.test_post_document&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="firestore-http" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,6 +261,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for tests.TestFirestoreAccess.test_post_document" />
         <item itemvalue="Python tests.Unittests for tests.TestFirestoreAccess.test_create_jwt" />
         <item itemvalue="Python tests.Unittests for tests.TestFirestoreAccess" />
         <item itemvalue="Python tests.Unittests in tests.py" />
@@ -266,50 +276,51 @@
       <option name="presentableId" value="Default" />
       <updated>1555056139123</updated>
       <workItem from="1555056141657" duration="10076000" />
-      <workItem from="1555072411448" duration="10345000" />
+      <workItem from="1555072411448" duration="10511000" />
+      <workItem from="1555163537116" duration="6004000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 22h 17m 23s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 18h 45m 05s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 22h 18m 05s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 18h 52m 52s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_create_jwt - 2019.04.12 at 22h 18m 10s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess.test_create_jwt" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 18h 53m 24s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 22h 30m 21s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 37m 05s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 22h 57m 04s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 37m 18s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 23h 02m 33s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 39m 42s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 23h 03m 37s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 43m 57s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess - 2019.04.12 at 23h 11m 40s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 46m 13s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_create_jwt - 2019.04.12 at 23h 12m 00s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess.test_create_jwt" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 49m 59s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_create_jwt - 2019.04.12 at 23h 13m 11s.xml">
-      <configuration name="Unittests for tests.TestFirestoreAccess.test_create_jwt" configurationId="tests" />
+    <history-entry file="Unittests_for_tests_TestFirestoreAccess_test_post_document - 2019.04.13 at 20h 51m 32s.xml">
+      <configuration name="Unittests for tests.TestFirestoreAccess.test_post_document" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20421000" />
+    <option name="totallyTimeSpent" value="26591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38691437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -318,17 +329,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627262" weight="0.3298647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4951535" visible="true" weight="0.46549192" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3298647" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037274" side_tool="true" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5048465" side_tool="true" weight="0.46549192" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49627262" visible="true" weight="0.3298647" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49574015" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,40 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firestore-http.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-example.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/jwt/api_jws.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="116" column="68" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -447,8 +424,22 @@
     </entry>
     <entry file="file:///anaconda3/envs/Python3/lib/python3.7/site-packages/jwt/api_jws.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="115" selection-end-column="24" />
+        <state relative-caret-position="1680">
+          <caret line="114" selection-start-line="114" selection-end-line="115" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/jwt/api_jws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="116" column="68" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -469,6 +460,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/firestore-http.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -476,6 +470,23 @@
             <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
